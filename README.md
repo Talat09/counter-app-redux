@@ -1,8 +1,18 @@
-# React + Vite
+# React-Redux Counter APP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Increment Count
+- Decrement Count
+- Reset Count
 
-Currently, two official plugins are available:
+## Step for Redux
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- install redux
+- install react redux
+- 1.state --> count:0
+- 2.action --> Increment / Decrement
+- 3.reducer ---> logic Increment -->count+1 | - - Decrement -->count-1
+- Reset --> count => 0
+- 4.store
+- dispatch
+- 5.providing store in index.js
+- store must be define in root file index.js

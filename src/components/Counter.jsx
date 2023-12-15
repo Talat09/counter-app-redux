@@ -47,7 +47,8 @@ const Counter = () => {
 };
 
 export default Counter;
-
+//install redux
+//install react redux
 //1.state --> count:0
 //2.action --> Increment  / Decrement
 //3.reducer ---> logic  Increment -->count+1 |  Decrement -->count-1
